@@ -1,4 +1,4 @@
-#include<stdio.h> //multiway decision use by switch statement
+#include<stdio.h> /*multiway decision use by switch statement*/
 void main()
 {
     int week;
@@ -9,7 +9,7 @@ switch (week)
 {
     case 0: printf("mon");break;
      case 1: printf("Tue");break;
-      case 2: printf("Wed");break;
+      case 2: printf("Wed");break; /*hit break come outr completely*/
        case 3: printf("thr");break;
         case 4: printf("fri");break;
          case 5: printf("sat");break;
